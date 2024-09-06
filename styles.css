@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    height: 100vh; 
+    background-image: url('./Assests/1725342143081\ 1.png'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    position: relative; 
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.navbar {
+    background-color: rgba(1, 1, 1, 0.6);
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin: 0 10px;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+    color: #f455ffc3;
+}
+
+.intro-text {
+    margin: 0;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+.info {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #000000; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95vw;
+    margin: 0 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+}
+
+.info-box-title{
+    font-size:larger;
+    font-weight: bolder;
+}
+
+.info-image_1, .info-image_3 {
+    max-width: 200px;
+    margin-right: 10px;
+}
+
+.info-image_2{
+    max-width: 200px;
+}
+
+.info-text {
+    font-size: 1em;
+    margin: 0;
+}
+
+.subscribe {
+    height: 100vh; 
+    background-image: url('./Assests/3d_model.png'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-content {
+    text-align: center;
+    color: #fff;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.subscribe-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; 
+    color: #fff;
+    cursor: pointer;
+    width: 80%;
+    max-width: 400px;
+}
+
+.subscribe-form button:hover {
+    background-color: #0056b3; 
+}
