@@ -1,0 +1,102 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f3f3ef;
+}
+
+/* Navbar with a red background */
+.navbar {
+    background-color: rgba(4, 3, 3, 0.897) !important; /* Red background */
+    transition: background-color 0.3s ease;
+}
+
+.navbar-brand img {
+    max-height: 75px;
+    max-width: 150px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.44);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+}
+/* Intro section */
+.intro {
+    height: 100vh;
+    background: url('/Assets/15.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.intro-text {
+    background: rgba(0, 0, 0, 0.625);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Info section */
+.info {
+    background-color: #f8f9fa;
+}
+
+.info-box {
+    transition: transform 0.3s ease;
+}
+
+.info-box:hover {
+    transform: translateY(-10px);
+}
+
+.info-box img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Subscribe section */
+.subscribe {
+    height: 100vh;
+    background: url('./Assets/12.png') no-repeat center center/cover;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.subscribe-content {
+    background: rgba(0, 0, 0, 0.427);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.subscribe-form input {
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.subscribe-form button {
+    width: 100%;
+    max-width: 200px;
+    background-color: #007bff;
+    color: white;
+}
+
+.subscribe-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .info-box {
+        margin-bottom: 20px;
+    }
+
+    .subscribe-content {
+        padding: 20px;
+    }
+}

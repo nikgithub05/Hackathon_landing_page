@@ -1,74 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgroLense</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="123.png">
 </head>
+
 <body>
-    <section class="intro">
-        <header>
-            <nav class="navbar">
-                <div class="logo"><span style="color: rgb(208, 0, 208);">A</span>gro<span style="color: rgb(255, 0, 255)">L</span>ense</div>
-                <ul class="nav-links">
-                    <li><a href="https://nikgithub05.github.io/Hackathon">Yolo Dashboard</a></li>
-                    <!-- <li><a href="https://nikgithub05.github.io/Hackathon/#live-feed">Live Feed</a></li>
-                    <li><a href="#history">History</a></li>
-                    <li><a href="#settings">Settings</a></li> -->
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="Logo1.png" height="75px" width="150px" alt="AgroLense Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://nikgithub05.github.io/Hackathon">Yolo Dashboard</a>
+                    </li>
                 </ul>
-            </nav>
-        </header>
-        <p class="intro-text">Step into the future of agriculture, where 
-            cutting-edge technology meets sustainability. Our AI-powered drone 
-            systems seamlessly integrate with satellite data to deliver 
-            real-time, farm-level insights that empower farmers to optimize 
-            water usage, monitor crop health, and enhance productivity. From 
-            seeding to harvest, every drop counts, ensuring that water resources 
-            are efficiently managed, even in the most challenging conditions.
-        </p>
-    </section>
+            </div>
+        </nav>
+    </header>
 
-    <section class="info">
-        <div class="info-box">
-            <img src="./Assests/div_1.png" alt="Image 1" class="info-image_1">
-            <p class="info-box-title">Precision Agriculture with Drone Technology</p>
-            <p class="info-text">Utilize our drone systems for unparalleled crop 
-                monitoring. From detecting early signs of disease to assessing 
-                growth stages, our technology provides farmers with vital insights, 
-                enabling timely interventions and maximizing crop health.
-            </p>
-        </div>
-        <div class="info-box">
-            <p class="info-text">Experience the future of farming with our AI-driven 
-                platform. By combining historical data with satellite imagery 
-                and real-time drone inputs, our system continuously learns and 
-                adapts, offering precise predictions for crop management, water 
-                usage, and yield optimization.
-            </p>
-            <img src="./Assests/div_2.png" alt="Image 2" class="info-image_2">
-        </div>
-        <div class="info-box">
-            <img src="./Assests/div_3.png" alt="Image 3" class="info-image_3">
-            <p class="info-text">Our drone technology goes beyond traditional 
-                farming practices. Designed with the farmer in mind, our drones 
-                provide precise, field-level data that helps in making informed 
-                decisions. Whether it's optimizing irrigation or detecting crop 
-                stress early, our drones offer a reliable and efficient solution 
-                that boosts productivity and reduces labor, ensuring farmers get 
-                the most out of every acre.
-            </p>
+    <!-- Intro Section -->
+    <section class="intro text-white d-flex flex-column justify-content-center align-items-center">
+        <div class="text-center intro-text">
+            <h1 class="Logo-1"><u><span style="color: rgb(208, 0, 208);">A</span>gro<span style="color: rgb(255, 0, 255)">L</span>ense</u></h1></h1>
+            <p class="lead">Step into the future of agriculture, where cutting-edge technology meets sustainability.</p>
+            <a href="#" class="btn btn-outline-light btn-lg mt-3">Learn More</a>
         </div>
     </section>
 
-    <section class="subscribe">
-        <div class="subscribe-content">
-            <p>Stay updated! Enter your email address below:</p>
+    <!-- Information Section -->
+    <section class="info py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="info-box shadow p-4 mb-4 bg-white rounded">
+                        <img src="/Assets/8.png" alt="Drone" class="img-fluid mb-3">
+                        <h4 class="info-box-title">Precision Agriculture with Drone Technology</h4>
+                        <p>Our drones help detect early signs of disease and assess growth stages, providing vital insights for maximum crop health.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="info-box shadow p-4 mb-4 bg-white rounded">
+                        <img src="/Assets/9.png" alt="AI Driven" class="img-fluid mb-3">
+                        <h4 class="info-box-title">AI-Driven Insights</h4>
+                        <p>Combining historical data, satellite imagery, and real-time drone inputs for precise crop management predictions.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="info-box shadow p-4 mb-4 bg-white rounded">
+                        <img src="./Assets/7.png" alt="Irrigation" class="img-fluid mb-3">
+                        <h4 class="info-box-title">Efficient Irrigation & Yield Optimization</h4>
+                        <p>Optimize water usage with field-level data, helping you make informed decisions for enhanced productivity.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscribe Section -->
+    <section class="subscribe text-white d-flex flex-column justify-content-center align-items-center">
+        <div class="subscribe-content text-center">
+            <h3>Stay updated!</h3>
+            <p>Enter your email address below to get the latest updates and offers.</p>
             <form class="subscribe-form">
-                <input type="email" placeholder="Enter your email">
-                <button type="submit">Subscribe</button>
+                <input type="email" class="form-control" placeholder="Enter your email" required>
+                <button type="submit" class="btn btn-outline-light btn-lg mt-3">Subscribe</button>
             </form>
         </div>
     </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
