@@ -27,7 +27,7 @@ body {
 /* Intro section */
 .intro {
     height: 100vh;
-    background: url('/Assets/15.jpg') no-repeat center center/cover;
+    background: url('./Assests/1725342143081\ 1.png') no-repeat center center/cover;
     color: #ffffff;
     text-align: center;
     padding: 50px 20px;
@@ -60,7 +60,7 @@ body {
 /* Subscribe section */
 .subscribe {
     height: 100vh;
-    background: url('./Assets/12.png') no-repeat center center/cover;
+    background: url('./Assests/3d_model.png') no-repeat center center/cover;
     padding: 50px 20px;
     text-align: center;
 }
